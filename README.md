@@ -148,10 +148,12 @@ dhcp-authoritative
 dhcp-range=192.168.100.201,192.168.100.249,12h
 dhcp-option=option:router,192.168.100.10
 dhcp-option=option:ntp-server,192.168.100.10
-dhcp-option=option:dns-server,192.168.100.5,192.168.100.5
+dhcp-option=option:dns-server,192.168.100.15
 ```
 
 #### Static Lease
+
+There are two ways. First one is recommended
 
 ##### 1. Argument / Configuration
 
